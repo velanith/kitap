@@ -11,7 +11,7 @@ export default defineConfig({
     outDir: "dist",
     assetsDir: "assets",
   },
-  publicDir: "resources",
+  publicDir: "public",
 });
 
 const audioFiles = {

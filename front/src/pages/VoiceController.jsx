@@ -14,8 +14,8 @@ const VoiceController = () => {
 
   useEffect(() => {
     if (uniteNo && sesId) {
-      // Public klasöründen ses dosyasına erişim
-      const audioUrl = `/public/resources/${uniteNo}/${sesId}.m4a`;
+      // Vercel için düzeltilmiş dosya yolu
+      const audioUrl = `/resources/${uniteNo}/${sesId}.m4a`;
       setCurrentAudio({
         id: `${uniteNo}-${sesId}`,
         unit: uniteNo,
